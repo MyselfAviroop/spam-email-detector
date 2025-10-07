@@ -1,28 +1,30 @@
 📧 Spam Email/SMS Prediction using Machine Learning
 
-This project builds a Machine Learning model to classify messages as Spam or Not Spam (Ham). The model analyzes the content of emails/SMS messages and predicts whether they are legitimate or potentially harmful. This kind of system is widely used in email filtering, messaging platforms, and cybersecurity applications.
+This project implements a Machine Learning model to classify messages as Spam or Not Spam (Ham). The system analyzes the content of emails and SMS messages to predict whether they are legitimate or potentially harmful. Such models are widely used in email filtering, messaging platforms, and cybersecurity applications.
 
 📌 Project Overview
 
-The project implements a full ML pipeline:
+The project follows a complete ML pipeline:
 
-Data Collection – Used a publicly available dataset of SMS/Email messages labeled as spam or ham.
+Data Collection
 
-Data Preprocessing –
+Used a publicly available dataset of SMS/Email messages labeled as spam or ham.
 
-Text cleaning (removing special characters, numbers, punctuation).
+Data Preprocessing
+
+Text cleaning: removed special characters, numbers, and punctuation.
 
 Tokenization and stop-word removal.
 
 Feature extraction using Bag of Words (BoW), TF-IDF, and Word Embeddings.
 
-Model Training – Trained multiple classifiers:
+Model Training
 
-Logistic Regression
+Trained multiple classifiers including Logistic Regression.
 
+Model Evaluation
 
-Model Evaluation – Compared performance using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
-
+Compared models using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
 
 🚀 Tech Stack
 
@@ -34,16 +36,16 @@ Version Control: Git & GitHub
 
 📊 Results
 
-Achieved high accuracy (>95%) with Logistic Regression .
+Achieved >96% accuracy with Logistic Regression.
 
 Successfully identified spam messages with strong precision-recall tradeoff.
+
+
+
 
 📂 Repository Structure
 
 ├── data/                # Dataset (or link to dataset)
-
 ├── notebooks/           # Jupyter notebooks for EDA & model building
-
 ├── requirements.txt     # Project dependencies
-
 ├── README.md            # Project documentation
